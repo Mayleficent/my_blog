@@ -2,7 +2,7 @@ title: Moyhour Ang
 description: Front End Web Developer
 
 url: http://mayleficent.github.io/myblog
-baseurl: ""
+baseurl: "/my_blog"
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
