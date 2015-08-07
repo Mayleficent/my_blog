@@ -1,0 +1,27 @@
+title: Moyhour Ang
+description: Front End Web Developer
+
+url: http://mayleficent.github.io/myblog
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: redcarpet
+highlighter: pygments
+paginate: 5
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about.html
+ - title: Contact
+   url: /contact.html
+
+social:
+   github: mayleficent
+   twitter: angmoyhour
+   facebook: angmoyhour
+   email: ang.moyhour@outlook.com
+
+google_analytics: "UA-58263416-1"
