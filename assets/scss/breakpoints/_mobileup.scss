@@ -74,8 +74,8 @@ MENU STYLING
 		li {
 		  width: 100%;
 		  display: block;
-		  background: seagreen;
-		  border-bottom: 2px solid lighten(seagreen, 5%);
+		  background: $primary-color;
+		  border-bottom: 2px solid lighten($grey, 5%);
 
 		  a {
 		  	color: white;
@@ -113,7 +113,7 @@ MENU STYLING
   float: right;
   line-height: 2em;
   margin-top: .5em;
-  background-color: seagreen;
+  background-color: $primary-color;
   border-radius: 4px;
   padding: 0 .5em;
   color: white;
@@ -124,7 +124,7 @@ MENU STYLING
 
   &:hover {
   	color: white;
-  	background-color: darken(seagreen, 10%);
+  	background-color: darken($primary-color, 10%);
   }
 }
 
@@ -167,7 +167,7 @@ HEADER STYLING
 ***************/
 
 .header {
-	background-color: seagreen;
+	background-color: $grey;
 	background-image: url('../img/header_bg.jpg');
 	background-size: cover;
   //background-position: center center;
