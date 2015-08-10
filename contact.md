@@ -10,7 +10,7 @@ title: Moyhour Ang Blog
   <img class="me" src="{{ '/assets/img/me.jpg' | prepend: site.baseurl }}" alt="">
 
   </div>
-  <form action="http://formspree.io/your@mail.com" method="POST">
+  <form action="http://formspree.io/ang.moyhour@outlook.com" method="POST">
     <label for="name">Name</label>
     <input type="text" id="name" name="name" class="full-width"><br>
     <label for="email">Email Address</label>
