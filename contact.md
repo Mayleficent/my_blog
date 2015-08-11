@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Moyhour Ang Blog
+title: Contact
 ---
 
 <div id="contact">
   <h1 class="pageTitle">Contact Me</h1>
   <div class="contactContent">
-  <p class="intro">If you want to say hi or have any questions, feel free to contact me. I hope you enjoy my blog.</p>
+  <p class="intro">If you have any questions, feel free to contact me.</p>
   <img class="me" src="{{ '/assets/img/me.jpg' | prepend: site.baseurl }}" alt="">
 
   </div>
