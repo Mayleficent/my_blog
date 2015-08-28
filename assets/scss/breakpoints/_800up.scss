@@ -69,7 +69,7 @@ HEADER STYLING
 
 	h1 {
 		font-size: 3em;
-		line-height: 1;
+	  line-height: 1;
 		letter-spacing: -3px;
 		padding-left: 0;
 	}
@@ -88,19 +88,19 @@ HEADER STYLING
 				border: none;
 
 				a {
-					color: white;
-					font-size: .9em;
+					color: #515151;
+					font-size: 1em;
 					text-decoration: none;
 					padding: 0 .25em;
 
 					&:hover {
-						color: darken(white, 20%);
+						color: lighten(#515151, 20%);
 					}
 				}
 
 				&.current {
 					padding-bottom: .25em;
-					border-bottom: 4px solid rgba(255,255,255,.4);
+					border-bottom: 4px solid lighten(#515151, 10%);
 				}
 			}
 		}
@@ -139,17 +139,17 @@ POST STYLING
 
 .post {
 	h1, h2, h3, h4, h5, h6, p, ul, ol, dl, .pageTitle {
-		@include span(9 of 12);
+		@include span(10 of 12);
 		float: none;
 		margin: 0 auto 2rem;
 	}
 
 	h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-		margin: 1rem auto;
+		margin: .5rem auto;
 	}
 
 	.pageTitle {
-		margin: 2rem auto 1em;
+		margin: 1rem auto 1em;
 	}
 
 	.featuredImage {

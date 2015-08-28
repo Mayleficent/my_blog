@@ -14,7 +14,7 @@ body {
 	font-family: $serif;
 	line-height: 1.75;
 	font-size: 112.5%; // 18px base font size
-	color: $black;
+	color:darken(#515151, 15%);
 	overflow-x: hidden;
 
 	p , ul {
@@ -171,7 +171,7 @@ HEADER STYLING
 	background-image: url('../img/header_bg.jpg');
 	background-size: cover;
   //background-position: center center;
-	color: white;
+	color: #fff;
 	padding: 0;
 	height: 3em;
 
@@ -191,7 +191,7 @@ HEADER STYLING
 		text-transform: uppercase;
 
 		a {
-			color: white;
+			color:#fff;
 			text-decoration: none;
 		}
 	}
@@ -293,8 +293,7 @@ POST NAV STYLING
 ***************/
 
 .postNav {
-	border-top: 1px solid darken(white, 10%);
-	border-bottom: 1px solid darken(white, 10%);
+
 	overflow: hidden;
 
 	.prev, .next {
@@ -374,7 +373,7 @@ FOOTER STYLING
 	padding: 2rem 0;
 
 	.container {
-		border-top: 4px solid darken(white, 15%);
+		border-top: 4px solid darken(white, 10%);
 		padding-top: .5em;
 		@include container(90%);
 	}
@@ -474,7 +473,7 @@ POST LIST STYLING
 		}
 
 		.date {
-			color: lighten(black, 50%);
+			color: darken($white, 60%);
 			font-family: $sans-serif;
 			font-weight: 300;
 			font-size: .8em;
